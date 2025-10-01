@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="tdl.css"/>
+
+
+</head>
+
+
+<body>
+    
+    <div id="to-do-container">
+        <div id="header">
+            <h1>To Do List</h1>
+    </div>
+    <div id="todo-form">
+        <input
+            type="text"
+            class="ip"
+            name="input name"
+            id="input-id"
+            placeholder="Add task"
+        />
+        <button id="bid" onclick="addtask()">Add</button>
+        <h2>Task List</h2>
+        <ul id="listid"></ul>
+    </div>
+    <hr />
+        <div class="counter">
+            <div id="task_counter">
+                Completed:<span id="ccounter">0</span> |
+                Uncompleted:<span id="ucounter">0</span>
+            </div>
+        </div>
+     
+<script type="text/javascript" src="tdl.js"></script>
+</body>
+</html>
